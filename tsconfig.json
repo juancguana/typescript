@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": false,
+    "target": "es5",
+    "module": "amd",
+    "strict": false,
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,     
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "outFile": "build/main.js"
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
